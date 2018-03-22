@@ -1,0 +1,32 @@
+  1  bash script.sh
+    2  groupadd aa_group
+    3  useradd -u 700 -d /home/aa_admin -g aa_group -c "AA Admin" -s /bin/sh -m aa_admin
+    4  useradd -u 701 -d /home/sandeep -g aa_group -c "Sandeep Soni" -s /bin/sh -m sandeep
+    5  useradd -u 702 -d /home/bhavana -g aa_group -c "Bhavana Palande" -s /bin/sh -m bhavana
+    6  useradd -u 703 -d /home/om -g aa_group -c "Om Gupta" -s /bin/sh -m om
+    7  passwd aa_admin
+    8  passwd sandeep
+    9  passwd bhavana
+   10  passwd om
+   11  cd /home
+   12  ls -alrt
+   13  cd aa_admin
+   14  pwd
+   15  git init --bare aa_repo.git
+   16  yum install git
+   17  git init --bare aa_repo.git
+   18  git clone /home/aa_admin/aa_repo.git
+   19  chown -R aa_admin:aa_group aa_repo.git
+   20  cat /etc/group
+   21  cd aa_repo
+   22  pwd
+   23  git remote show origin
+   24  su bhavana
+   25  cd
+   26  ls -alrt
+   27  cd 
+   28  cd cd /home
+   29  cd /home
+   30  ls -alrt
+   31  chmod 777 -R aa_admin
+   32  history
