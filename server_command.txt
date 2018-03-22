@@ -1,0 +1,58 @@
+git clone sandeep_r@nakumatt-qa-vm.cloudapp.net:/home/nakumattadmin/gitprojects/repo/crm213naku.git
+
+git init --bare /home/nakumatt_app/gitadmin/repos/nakumattmagCRM213.git
+
+git clone /home/nakumatt_app/gitadmin/repos/nakumattmagCRM213.git /var/www/html/crm213naku
+
+
+mysqldump -h 192.168.0.25 -u appadmin --password=Naku@123 naku213mag | mysql -h 192.168.0.25 -u appadmin -p naku213mag_copy
+
+
+git clone sandeep_r@192.168.0.23:/home/nakumatt_app/gitadmin/repos/nakumattmagCRM213.git
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'*' IDENTIFIED BY 'nakumatt_app' WITH GRANT OPTION;
+ FLUSH PRIVILEGES;
+
+useradd -u 700 -d /home/sandeep_r -g nakumattgit -c "Sandeep Rout" -s /bin/sh -m sandeep_r
+useradd -u 701 -d /home/prajkta_m -g nakumattgit -c "Prajkta Muley" -s /bin/sh -m prajkta_m
+useradd -u 702 -d /home/anshita_m -g nakumattgit -c "Anshita Mehta" -s /bin/sh -m anshita_m
+useradd -u 703 -d /home/ankita_m -g nakumattgit -c "Ankita Mundada" -s /bin/sh -m ankita_m
+useradd -u 704 -d /home/rahul_p -g nakumattgit -c "Rahul Pandey" -s /bin/sh -m rahul_p
+useradd -u 705 -d /home/srinidhi_d -g nakumattgit -c "Srinidhi Damle" -s /bin/sh -m srinidhi_d
+useradd -u 706 -d /home/vivek_t -g nakumattgit -c "Vivek Tomar" -s /bin/sh -m vivek_t
+useradd -u 707 -d /home/bhavana_p -g nakumattgit -c "Bhavana Palande" -s /bin/sh -m bhavana_p
+useradd -u 708 -d /home/sagar_m -g nakumattgit -c "Sagar More" -s /bin/sh -m sagar_m
+useradd -u 709 -d /home/shanti_t -g nakumattgit -c "Shantibhusan Tiwari" -s /bin/sh -m shanti_t
+useradd -u 720 -d /home/sudhansu_n -g nakumattgit -c "Sudhansu Narendra" -s /bin/sh -m sudhansu_n
+useradd -u 721 -d /home/akhilesh_k -g nakumattgit -c "Akhilesh Khuswah" -s /bin/sh -m akhilesh_k
+useradd -u 722 -d /home/ashok_g -g nakumattgit -c "Ashok Gupta" -s /bin/sh -m ashok_g
+useradd -u 723 -d /home/vaishali_m -g nakumattgit -c "Vaishali Manvar" -s /bin/sh -m vaishali_m
+
+S!udhn!Are17
+a@KhIkhUS#2017
+G!UptA!SHO17
+MAn%Vv!AIS2017
+Arr00n!@ch17
+
+sudhansu_n@192.168.0.23:/home/nakumatt_app/gitadmin/repos/nakumattsugCRM6524.git/
+
+useradd -u 707 -d /home/bhavana_p -g nakumattgit -c "Bhavana Palande" -s /bin/sh -m bhavana_p
+useradd -u 739 -d /home/arroon_a -g nakumattgit -c "Arroon" -s /bin/sh -m arroon_a
+
+git remote set-url origin sudhansu_n@192.168.0.23:/home/nakumatt_app/gitadmin/repos/nakumattsugCRM6524.git
+
+S@ndEEp@R#D2
+P%rAM%Ul1989
+Meh!A!Ns6VkS
+A#nKiMuN%d89
+RaHU!S@NeH90
+S%riND#AMl90
+ViVe@TOMa!19
+pal!A2BHa@Vn
+MO%ReSAg#A88
+S%hAnT#iwA11
+
+git remote set-url origin sandeep_r@192.168.0.23:/home/nakumatt_app/gitadmin/repos/nakumattmagCRM213.git
+git branch --set-upstream dev-developer origin/dev-developer
+
+git clone -b dev-developer --single-branch username@192.168.0.23:/home/nakumatt_app/gitadmin/repos/nakumattmagCRM213.git
